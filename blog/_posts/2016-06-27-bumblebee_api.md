@@ -71,6 +71,11 @@ with pivot data looking like
 
     {"field":"citation_count","value":0,"count":1650},{"field":"citation_count","value":1,"count":129},...
 
+The "stats" part adds data of the following form
+
+    "stats":{"stats_fields":{"citation_count":{"min":0.0,"max":9448.0,"count":50266,"missing":0,
+	"sum":1111857.0,"sumOfSquares":3.84760925E8,"mean":22.119464449130625,"stddev":84.6484992170285,"facets":{}}}}
+
 Another fun query is
 
     https://api.adsabs.harvard.edu/v1/search/query?facet=true&
